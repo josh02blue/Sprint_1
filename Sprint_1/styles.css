@@ -51,15 +51,15 @@ nav a:hover{
 
 form {
     max-width: 400px;         
-    margin: auto;              /* Center the form */
+    margin: auto;              
     padding: 20px;
-    border: 1px solid #ccc;    /* Border around the form */
-    border-radius: 5px;        /* Rounded corners */
-    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ccc;    
+    border-radius: 5px;        
+    background-color: #f9f9f9; 
   
 }
 label {
-  display: block;            /* Labels on new lines */
+  display: block;            
   margin: 10px 0 5px; 
 
 }
