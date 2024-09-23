@@ -1,0 +1,91 @@
+img {
+  margin: 10px auto;
+  width: 400px;   
+  height: auto;   
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  border: 0.5px solid black;
+  border-radius: 10px;
+}
+
+img:hover{
+  border: 1px solid darkred;
+}
+
+h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav{
+  display: flex;                
+  justify-content: space-around; 
+  background-color: grey;       
+  padding: 10px;       
+  
+}
+
+nav a{
+
+  text-decoration: none;
+   color: white;
+}
+
+nav a:hover{
+ text-decoration: underline;
+}
+
+form {
+    max-width: 400px;         
+    margin: auto;              /* Center the form */
+    padding: 20px;
+    border: 1px solid #ccc;    /* Border around the form */
+    border-radius: 5px;        /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+  
+}
+label {
+  display: block;            /* Labels on new lines */
+  margin: 10px 0 5px; 
+
+}
+
+input, textarea {
+  width: 90%;              
+  padding: 10px;             
+  margin-bottom: 15px;      
+  border: 1px solid #ccc;   
+  border-radius: 4px;       
+  
+}
+button {
+  background-color: darkgrey; 
+  color: white;             
+  padding: 10px 15px;        
+  border-radius: 5px;        
+  cursor: pointer;          
+  
+}
+button:hover {
+  background-color: black; 
+}
+
+h3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
